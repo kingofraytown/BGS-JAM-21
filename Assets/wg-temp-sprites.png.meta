@@ -1,0 +1,577 @@
+fileFormatVersion: 2
+guid: 9af4858ee3bb7124fba450a9941a08c5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: witch-temp-asset-01
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1547
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd60401b87ecd346b1b2d42e06e2734
+      internalID: 969277767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1547
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc96d2977792df240b1442a372bdf159
+      internalID: -601583591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-03
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1116
+        width: 267
+        height: 485
+      alignment: 9
+      pivot: {x: 0.48314607, y: 0.50309277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48f801edd4d9ea4ebebb05cb248b4d3
+      internalID: 861657327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1054
+        width: 264
+        height: 491
+      alignment: 9
+      pivot: {x: 0.4810606, y: 0.4928717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23217355ce10f944ea8c0ffd295dabce
+      internalID: -504848622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-05
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1494
+        width: 264
+        height: 481
+      alignment: 9
+      pivot: {x: 0.4810606, y: 0.5051975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37306e79b074374d9ba33bb61cb1ceb
+      internalID: 502923050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-06
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1198
+        width: 327
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5321101, y: 1.0751173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ce0a27b1431f84d9414dc0bf7ae5df
+      internalID: -947246928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-07
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1222
+        width: 332
+        height: 211
+      alignment: 9
+      pivot: {x: 0.52409637, y: 1.0853081}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a685144fcb97d324bb92281e797befed
+      internalID: 67416014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-08
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1102
+        width: 349
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5329513, y: 1.0714285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c40dab6bf9eda24987e3d19de6eebf5
+      internalID: -1994785035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-09
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1581
+        width: 312
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ec5ef46531bbb4dac803d31b3c5c8e
+      internalID: -1959117257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-10
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1581
+        width: 312
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b91ec5151a6caf4daded65ffcd5d9ae
+      internalID: -1538208289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-11
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1581
+        width: 312
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1da00dda6008af4a96cfc62e1c651ab
+      internalID: -1435402473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-12
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1
+        width: 204
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0.396875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53859682063c5d9469bab74971997430
+      internalID: -792850664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 204
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49844238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787d229b81345a54a8d7e8c69a883183
+      internalID: -1045517152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 731
+        width: 204
+        height: 321
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49844238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c20ca52dc5a57249ad4bb1b7c4b27a7
+      internalID: 207257288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1218
+        width: 354
+        height: 327
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5259939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8feac8e570ab1541ad9ec20d54296e1
+      internalID: -64858674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-16
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1336
+        width: 322
+        height: 214
+      alignment: 9
+      pivot: {x: 0.4937888, y: 0.8317757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5faed5152d3074fb1b03fb7520d0be
+      internalID: -2051986755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-17
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1312
+        width: 459
+        height: 180
+      alignment: 9
+      pivot: {x: 0.48583877, y: 0.055555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a98fea1b0909694d88fdbe488a2af05
+      internalID: -941886063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-18
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1415
+        width: 414
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5483092, y: 0.115384616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544808960f11a4f4d9d9cff7826fa2ee
+      internalID: -755328632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-19
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1032
+        width: 216
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4976744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c8981390a425e47a2bc9154c824329
+      internalID: 1064737229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: witch-temp-asset-20
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1
+        width: 422
+        height: 44
+      alignment: 9
+      pivot: {x: 0.49052134, y: 2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f0bc91fb29ace4287f7c92ea72891d
+      internalID: 692723017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 768940ab95d98794f89bf08af9a3e9a6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      witch-temp-asset-01: 969277767
+      witch-temp-asset-02: -601583591
+      witch-temp-asset-03: 861657327
+      witch-temp-asset-04: -504848622
+      witch-temp-asset-05: 502923050
+      witch-temp-asset-06: -947246928
+      witch-temp-asset-07: 67416014
+      witch-temp-asset-08: -1994785035
+      witch-temp-asset-09: -1959117257
+      witch-temp-asset-10: -1538208289
+      witch-temp-asset-11: -1435402473
+      witch-temp-asset-12: -792850664
+      witch-temp-asset-13: -1045517152
+      witch-temp-asset-14: 207257288
+      witch-temp-asset-15: -64858674
+      witch-temp-asset-16: -2051986755
+      witch-temp-asset-17: -941886063
+      witch-temp-asset-18: -755328632
+      witch-temp-asset-19: 1064737229
+      witch-temp-asset-20: 692723017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
