@@ -6,6 +6,7 @@ public class WitchController : MonoBehaviour
     public Vector2 _movement;
     public float movementSpeed;
     public Animator animator;
+    public GameManager gm;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,7 +25,7 @@ public class WitchController : MonoBehaviour
     {
 
             _movement = cc.ReadValue<Vector2>();
-            Debug.Log(_movement);
+            //Debug.Log(_movement);
     }
 
     void Move(Vector2 d)
@@ -72,4 +73,23 @@ public class WitchController : MonoBehaviour
         transform.position = new Vector3(curPos.x + (d.x * Time.deltaTime * movementSpeed), curPos.y + (d.y * Time.deltaTime * movementSpeed), curPos.z);
 
     }
- }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("colling with " + other.gameObject.name);
+        switch (other.tag)
+        {
+            case "crystal":
+                gm.AddCrystal();
+                other.GetComponent<CrystalController>().CrystalHit();
+                break;
+            case "enemy":
+                gm.LoseCrystals();
+                animator.SetTrigger("hurt");
+                break;
+            case "goal":
+                gm.ShowWinPanel();
+                break;
+        }
+    }
+}

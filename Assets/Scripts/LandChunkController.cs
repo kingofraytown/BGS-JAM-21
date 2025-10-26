@@ -14,5 +14,10 @@ public class LandChunkController : MonoBehaviour
     {
         Vector3 cur = transform.position;
         transform.position = new Vector3(cur.x, cur.y, cur.z + (landSpeed * Time.deltaTime));
+
+        if(transform.position.z < -80f)
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

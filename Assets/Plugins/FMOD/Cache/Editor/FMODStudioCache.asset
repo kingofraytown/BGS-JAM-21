@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: Assets/witchy jam/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638970661521085157
+  lastModified: 638970698215481450
   FileSizes:
   - Name: Desktop
     Value: 2156672
@@ -126,7 +126,7 @@ MonoBehaviour:
   - {fileID: -5360212220805185547}
   StringsBanks:
   - {fileID: 5032036115144763913}
-  cacheTime: 638970661521115176
+  cacheTime: 638970698215481450
   cacheVersion: 131632
 --- !u!114 &4869135424365041648
 MonoBehaviour:
@@ -170,7 +170,7 @@ MonoBehaviour:
   Path: Assets/witchy jam/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638970661521115176
+  lastModified: 638970698215481450
   FileSizes:
   - Name: Desktop
     Value: 908
