@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4facb913-be25-4d46-bf0e-8eb458b8d167}">
+		<property name="assetPath">
+			<value>Traversing for a letter.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>187.74204081632652</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{189156d0-e4cb-4d8b-a3ef-f121a13976bd}</destination>
+		</relationship>
+	</object>
+</objects>

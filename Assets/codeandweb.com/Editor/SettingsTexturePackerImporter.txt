@@ -1,14 +1,17 @@
 version: 2
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites/temp-env.tpsheet
 - Assets/Sprites/temp-witch 1.tpsheet
 - Assets/Sprites/temp-witch.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
-- C:/Users/antho/Documents/Unity Prototypes/BGS-JAM-21/BGS-JAM-21/Assets/wg-temp-witch.png
+- Assets/Sprites/temp-env.png
+- C:/Users/antho/Documents/GitHub/BGS-JAM-21/BGS-JAM-21/Assets/wg-temp-witch.png
 - Assets/Sprites/wg-temp-witch.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 enableDebugOutput: 0

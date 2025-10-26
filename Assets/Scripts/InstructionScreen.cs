@@ -26,6 +26,6 @@ public class InstructionScreen : MonoBehaviour
     public void PlayGame()
     {
         //change to instructions screen 
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Game");
     }
 }

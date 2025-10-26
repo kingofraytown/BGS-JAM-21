@@ -32,8 +32,6 @@ public class WitchController : MonoBehaviour
         if(d.x < 0f && d.y > 0f)
         {
             animator.SetInteger("direction", 1);
-            Vector3 curPos = transform.position;
-            //transform.position = new Vector3(curPos.x +)
         }
 
         else if (d.x == 0f && d.y == 1f)
@@ -69,6 +67,9 @@ public class WitchController : MonoBehaviour
         {
             animator.SetInteger("direction", 5);
         }
+
+        Vector3 curPos = transform.position;
+        transform.position = new Vector3(curPos.x + (d.x * Time.deltaTime * movementSpeed), curPos.y + (d.y * Time.deltaTime * movementSpeed), curPos.z);
 
     }
  }
