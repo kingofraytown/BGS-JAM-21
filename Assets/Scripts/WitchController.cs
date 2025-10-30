@@ -7,7 +7,14 @@ public class WitchController : MonoBehaviour
     public float movementSpeed;
     public Animator animator;
     public GameManager gm;
+    public GameObject hitSound;
+    public float minY = 0.8f;
+    public float maxY = 4f;
+    public float minX = -3f;
+    public float maxX = 3f;
+    public ParticleSystem ps;
 
+    Vector3 targetPosition;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -70,7 +77,12 @@ public class WitchController : MonoBehaviour
         }
 
         Vector3 curPos = transform.position;
-        transform.position = new Vector3(curPos.x + (d.x * Time.deltaTime * movementSpeed), curPos.y + (d.y * Time.deltaTime * movementSpeed), curPos.z);
+        targetPosition = new Vector3(curPos.x + (d.x * Time.deltaTime * movementSpeed), curPos.y + (d.y * Time.deltaTime * movementSpeed), curPos.z);
+
+        targetPosition.x = Mathf.Clamp(targetPosition.x, minX, maxX);
+        targetPosition.y = Mathf.Clamp(targetPosition.y, minY, maxY);
+
+        transform.position = targetPosition;
 
     }
 
@@ -82,10 +94,18 @@ public class WitchController : MonoBehaviour
             case "crystal":
                 gm.AddCrystal();
                 other.GetComponent<CrystalController>().CrystalHit();
+                //ps.emission.GetBurst(0).count = gm.crystals;
+                //other.gameObject.transform.SetParent(this.transform);
                 break;
             case "enemy":
-                gm.LoseCrystals();
+                int burstCount = gm.LoseCrystals();
+                ParticleSystem.Burst b = ps.emission.GetBurst(0);
+                b.count = burstCount;
+                ps.emission.SetBurst(0, b);
+                ps.Play();
                 animator.SetTrigger("hurt");
+                hitSound.SetActive(true);
+                hitSound.SetActive(false);
                 break;
             case "goal":
                 gm.ShowWinPanel();

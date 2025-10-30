@@ -11,12 +11,15 @@ public class TitleScreen : MonoBehaviour
     void Start()
     {
         //audio.PlayMusic();
+
         bgm = GameObject.FindGameObjectWithTag("Music").GetComponent<music>();
         if (!bgm.bgm.IsPlaying())
         {
             bgm.bgm.Play();
         }
-        bgm.ChangeMusic(4);
+        //bgm.bgm.Stop();
+        //bgm.bgm.Play();
+        //bgm.ChangeMusic(4);
     }
 
     // Update is called once per frame

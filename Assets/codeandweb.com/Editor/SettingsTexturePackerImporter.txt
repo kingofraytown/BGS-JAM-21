@@ -1,16 +1,25 @@
 version: 2
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites/cleaner-items.tpsheet
 - Assets/Sprites/temp-env.tpsheet
 - Assets/Sprites/temp-witch 1.tpsheet
 - Assets/Sprites/temp-witch.tpsheet
+- Assets/Sprites/weather_peices.tpsheet
+- Assets/Sprites/witch-broom-slide.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprites/cleaner-items.png
 - Assets/Sprites/temp-env.png
 - C:/Users/antho/Documents/GitHub/BGS-JAM-21/BGS-JAM-21/Assets/wg-temp-witch.png
 - Assets/Sprites/wg-temp-witch.png
+- Assets/Sprites/weather_peices.png
+- Assets/Sprites/witch-broom-slide.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
 - 
 - 
 - 

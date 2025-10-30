@@ -3,6 +3,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public float speed;
+    public GameFloat gSpeed;
     public Transform player;
     public float attackRange;
     public float playerOffset = 10f;
@@ -22,7 +23,7 @@ public class EnemyController : MonoBehaviour
 
 
         Vector3 adjPos = new Vector3(player.position.x, player.position.y, player.position.z - playerOffset);
-        distance = Vector3.Distance(this.transform.position,adjPos);
+        distance = Mathf.Abs(Vector3.Distance(this.transform.position,adjPos));
 
         if(distance <= attackRange)
         {
@@ -31,10 +32,10 @@ public class EnemyController : MonoBehaviour
                 animator.SetBool("chase", true);
                 chase = true;
             }
-            transform.position = Vector3.MoveTowards(transform.position, adjPos, -1* speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, adjPos, (gSpeed.value() * Time.deltaTime));
         } else
         {
-            transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y, 100f),(speed * Time.deltaTime));
+            transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y, -100f),(gSpeed.value() * Time.deltaTime));
         }
 
         if(distance < 1)

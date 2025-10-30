@@ -12,4 +12,9 @@ public class GameFloat : ScriptableObject
     {
         return gameFloat;
     }
+
+    public void SetValue(float v)
+    {
+        gameFloat = v;
+    }
 }

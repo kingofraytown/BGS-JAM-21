@@ -11,12 +11,15 @@ public class GameManager : MonoBehaviour
     public GameObject winPanel;
     public GameObject losePanel;
     public TMP_Text crystalText;
+    public float acceleration;
+    public GameFloat speed;
+    public float startSpeed;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        speed.SetValue(startSpeed);
     }
 
     // Update is called once per frame
@@ -39,19 +42,24 @@ public class GameManager : MonoBehaviour
     {
         crystals++;
         crystalText.text = crystals.ToString();
+        speed.SetValue(speed.value() + acceleration);
     }
 
-    public void LoseCrystals()
+    public int LoseCrystals()
     {
-        if(crystals == 1)
+        int rtn = 0;
+        if(crystals <= 1)
         {
             ShowLosePanel();
         } else
         {
+            rtn = crystals / 2;
+            speed.SetValue(speed.value() - (rtn * acceleration));
             crystals = crystals / 2;
         }
 
         crystalText.text = crystals.ToString();
+        return rtn;
     }
 
     public void StartGame()

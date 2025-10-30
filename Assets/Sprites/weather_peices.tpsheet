@@ -1,0 +1,37 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: weather_peices.png (2048 x 2048)
+# $TexturePacker:SmartUpdate:33f280d8771f1bea0644cc93adf2cd2a:84d5c70c05482e9f9e1027d6cfb71b03:d601e4e8be4e1f662abbee2642c6139d$
+#
+
+rain drop small-01;1063;932;56;581;0.5;0.5
+weather3-01;1732;1909;248;61;0.5;0.5
+weather3-02;1476;1750;231;52;0.5;0.5
+weather3-03;1062;1515;390;49;0.5;0.5
+weather3-04;2;12;1011;42;0.5;0.5
+weather3-05;995;592;999;166;0.5;0.5
+weather3-06;1007;56;1000;47;0.5;0.5
+weather3-07;2;220;1013;158;0.5;0.5
+weather3-08;1709;1733;197;69;0.5;0.5
+weather3-09;1062;1969;593;77;0.5;0.5
+weather3-10;1476;1804;295;52;0.5;0.5
+weather3-11;1476;1697;123;51;0.5;0.5
+weather3-12;1454;1455;255;109;0.5;0.5
+weather3-13;1476;1858;254;109;0.5;0.5
+weather3-14;1657;1972;314;74;0.5;0.5
+weather3-16;2;65;1003;47;0.5;0.5
+weather3-17;1017;105;997;157;0.5;0.5
+weather3-18;1062;1566;412;401;0.5;0.5
+weather3-22;2;380;1016;46;0.5;0.5
+weather3-23;995;760;1003;170;0.5;0.5
+weather3-24;2;114;1004;51;0.5;0.5
+weather3-25;995;428;1017;162;0.5;0.5
+weather3-26;2;167;1007;51;0.5;0.5
+weather3-27;1020;264;1001;162;0.5;0.5
+weather4-19;2;459;991;529;0.5;0.5
+weather4-20;2;1499;1058;547;0.5;0.5
+weather4-21;2;990;1059;507;0.5;0.5

@@ -14,7 +14,7 @@ public class InstructionScreen : MonoBehaviour
         {
             bgm.bgm.Play();
         }
-        bgm.ChangeMusic(4);
+        //bgm.ChangeMusic(4);
     }
 
     // Update is called once per frame
