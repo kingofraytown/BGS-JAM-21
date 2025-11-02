@@ -13,6 +13,7 @@ public class WitchController : MonoBehaviour
     public float minX = -3f;
     public float maxX = 3f;
     public ParticleSystem ps;
+    public ParticleSystem treeleaves;
 
     Vector3 targetPosition;
 
@@ -31,8 +32,33 @@ public class WitchController : MonoBehaviour
     public void OnMove(InputAction.CallbackContext cc)
     {
 
-            _movement = cc.ReadValue<Vector2>();
-            //Debug.Log(_movement);
+        _movement = cc.ReadValue<Vector2>();
+        Debug.Log(_movement);
+        // normalize output
+        if (_movement.x > 0.25f)
+        {
+            _movement.x = 1f;
+        } else if(_movement.x < -0.25f)
+        {
+            _movement.x = -1f;
+        } else
+        {
+            _movement.x = 0f;
+        }
+
+        if (_movement.y > 0.25f)
+        {
+            _movement.y = 1f;
+        }
+        else if (_movement.y < -0.25f)
+        {
+            _movement.y = -1f;
+        }
+        else
+        {
+            _movement.y = 0f;
+        }
+
     }
 
     void Move(Vector2 d)
@@ -77,7 +103,8 @@ public class WitchController : MonoBehaviour
         }
 
         Vector3 curPos = transform.position;
-        targetPosition = new Vector3(curPos.x + (d.x * Time.deltaTime * movementSpeed), curPos.y + (d.y * Time.deltaTime * movementSpeed), curPos.z);
+        float crystalAccel = gm.speed.value() / 10f;
+        targetPosition = new Vector3(curPos.x + (d.x * Time.deltaTime * (movementSpeed + crystalAccel)), curPos.y + (d.y * Time.deltaTime * (movementSpeed + crystalAccel)), curPos.z);
 
         targetPosition.x = Mathf.Clamp(targetPosition.x, minX, maxX);
         targetPosition.y = Mathf.Clamp(targetPosition.y, minY, maxY);
@@ -94,12 +121,11 @@ public class WitchController : MonoBehaviour
             case "crystal":
                 gm.AddCrystal();
                 other.GetComponent<CrystalController>().CrystalHit();
-                //ps.emission.GetBurst(0).count = gm.crystals;
-                //other.gameObject.transform.SetParent(this.transform);
                 break;
             case "enemy":
                 int burstCount = gm.LoseCrystals();
                 ParticleSystem.Burst b = ps.emission.GetBurst(0);
+                other.GetComponent<EnemyController>().Hit();
                 b.count = burstCount;
                 ps.emission.SetBurst(0, b);
                 ps.Play();
@@ -107,7 +133,20 @@ public class WitchController : MonoBehaviour
                 hitSound.SetActive(true);
                 hitSound.SetActive(false);
                 break;
+            case "tree":
+                treeleaves.Play();
+                animator.SetTrigger("hurt");
+                hitSound.SetActive(true);
+                hitSound.SetActive(false);
+                other.GetComponent<TreeMonster>().Hit();
+                int bc = gm.LoseCrystals();
+                ParticleSystem.Burst bt = ps.emission.GetBurst(0);
+                bt.count = bc;
+                ps.emission.SetBurst(0, bt);
+                ps.Play();
+                break;
             case "goal":
+                //gm.speed.SetValue(0);
                 gm.ShowWinPanel();
                 break;
         }

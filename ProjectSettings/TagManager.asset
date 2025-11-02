@@ -9,6 +9,7 @@ TagManager:
   - player
   - goal
   - Music
+  - tree
   layers:
   - Default
   - TransparentFX
