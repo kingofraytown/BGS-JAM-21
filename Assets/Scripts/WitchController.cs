@@ -14,7 +14,7 @@ public class WitchController : MonoBehaviour
     public float maxX = 3f;
     public ParticleSystem ps;
     public ParticleSystem treeleaves;
-
+    public ShadowFollow shadow;
     Vector3 targetPosition;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -102,6 +102,7 @@ public class WitchController : MonoBehaviour
             animator.SetInteger("direction", 5);
         }
 
+        shadow.ChangeAngle((int)d.x);
         Vector3 curPos = transform.position;
         float crystalAccel = gm.speed.value() / 10f;
         targetPosition = new Vector3(curPos.x + (d.x * Time.deltaTime * (movementSpeed + crystalAccel)), curPos.y + (d.y * Time.deltaTime * (movementSpeed + crystalAccel)), curPos.z);

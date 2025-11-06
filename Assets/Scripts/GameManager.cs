@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour
     public GameObject slideWitch;
     public float goalTime;
     public float goalTimer;
+    public ParticleSystem windFX;
+    public float windMinSpeed;
+    public float windMaxSpeed;
+    public float windMinRate;
+    public float windMaxRate;
 
 
 
@@ -77,6 +82,10 @@ public class GameManager : MonoBehaviour
         crystals++;
         crystalText.text = crystals.ToString();
         speed.SetValue(speed.value() + acceleration);
+        ParticleSystem.EmissionModule em = windFX.emission;
+        em.rateOverTime = windMinRate + (crystals * acceleration);
+        ParticleSystem.MainModule main = windFX.main;
+        main.startSpeed = windMinSpeed + (crystals * 0.3f);
     }
 
     public int LoseCrystals()
@@ -93,6 +102,10 @@ public class GameManager : MonoBehaviour
         }
 
         crystalText.text = crystals.ToString();
+        ParticleSystem.EmissionModule em = windFX.emission;
+        em.rateOverTime = windMinRate + (crystals * acceleration);
+        ParticleSystem.MainModule main = windFX.main;
+        main.startSpeed = windMinSpeed + (crystals * 0.3f);
         return rtn;
     }
 
