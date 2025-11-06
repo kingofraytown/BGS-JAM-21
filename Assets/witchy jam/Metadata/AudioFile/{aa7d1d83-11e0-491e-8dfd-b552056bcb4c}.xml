@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{aa7d1d83-11e0-491e-8dfd-b552056bcb4c}">
+		<property name="assetPath">
+			<value>death yan.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.8319999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{189156d0-e4cb-4d8b-a3ef-f121a13976bd}</destination>
+		</relationship>
+	</object>
+</objects>

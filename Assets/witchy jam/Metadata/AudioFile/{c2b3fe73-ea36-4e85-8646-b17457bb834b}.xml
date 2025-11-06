@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c2b3fe73-ea36-4e85-8646-b17457bb834b}">
+		<property name="assetPath">
+			<value>BREAK_Crack_01_mono.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.86394557823129248</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{189156d0-e4cb-4d8b-a3ef-f121a13976bd}</destination>
+		</relationship>
+	</object>
+</objects>

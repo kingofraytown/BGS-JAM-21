@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{dfdaadcb-0bc4-496e-ac60-17f0dd4f150d}">
+		<property name="assetPath">
+			<value>DEMOLISH_Short_02_mono.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.77278911564625852</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{189156d0-e4cb-4d8b-a3ef-f121a13976bd}</destination>
+		</relationship>
+	</object>
+</objects>
