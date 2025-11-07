@@ -27,6 +27,8 @@ public class GameManager : MonoBehaviour
     public float windMaxSpeed;
     public float windMinRate;
     public float windMaxRate;
+    public WitchController witchController;
+    public List<GameObject> tracks;
 
 
 
@@ -34,6 +36,17 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         speed.SetValue(startSpeed);
+        int random = Random.Range(1, 3);
+
+        switch (random)
+        {
+            case 1:
+                tracks[0].SetActive(true);
+                break;
+            case 2:
+                tracks[1].SetActive(true);
+                break;
+        }
     }
 
     // Update is called once per frame
@@ -73,6 +86,7 @@ public class GameManager : MonoBehaviour
 
     public void ShowLosePanel()
     {
+        witchController.Die();
         losePanel.SetActive(true);
         speed.SetValue(0);
     }

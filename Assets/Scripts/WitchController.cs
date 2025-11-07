@@ -14,8 +14,12 @@ public class WitchController : MonoBehaviour
     public float maxX = 3f;
     public ParticleSystem ps;
     public ParticleSystem treeleaves;
+    public ParticleSystem smoke;
     public ShadowFollow shadow;
     Vector3 targetPosition;
+    public GameObject crystalDropSFX;
+    public bool dead = false;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,7 +30,10 @@ public class WitchController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move(_movement);
+        if (dead == false)
+        {
+            Move(_movement);
+        }
     }
 
     public void OnMove(InputAction.CallbackContext cc)
@@ -133,12 +140,16 @@ public class WitchController : MonoBehaviour
                 animator.SetTrigger("hurt");
                 hitSound.SetActive(true);
                 hitSound.SetActive(false);
+                crystalDropSFX.SetActive(true);
+                crystalDropSFX.SetActive(false);
                 break;
             case "tree":
                 treeleaves.Play();
                 animator.SetTrigger("hurt");
                 hitSound.SetActive(true);
                 hitSound.SetActive(false);
+                crystalDropSFX.SetActive(true);
+                crystalDropSFX.SetActive(false);
                 other.GetComponent<TreeMonster>().Hit();
                 int bc = gm.LoseCrystals();
                 ParticleSystem.Burst bt = ps.emission.GetBurst(0);
@@ -151,5 +162,15 @@ public class WitchController : MonoBehaviour
                 gm.ShowWinPanel();
                 break;
         }
+    }
+
+    public void Die()
+    {
+        //start death animation
+        //stop particle effects
+        dead = true;
+        ps.Stop();
+        smoke.Stop();
+        animator.SetInteger("direction", 10);
     }
 }

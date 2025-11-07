@@ -50,35 +50,38 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-        Vector3 adjPos = new Vector3(player.position.x, player.position.y, player.position.z - playerOffset);
-        distance = Mathf.Abs(Vector3.Distance(this.transform.position,adjPos));
-
-        if(currentState == ghostState.idle)
+        if (gSpeed.value() > 0)
         {
-            if(distance <= alertRange)
+
+            Vector3 adjPos = new Vector3(player.position.x, player.position.y, player.position.z - playerOffset);
+            distance = Mathf.Abs(Vector3.Distance(this.transform.position, adjPos));
+
+            if (currentState == ghostState.idle)
             {
-                ChangeState(ghostState.awake);
+                if (distance <= alertRange)
+                {
+                    ChangeState(ghostState.awake);
+                }
             }
-        }
 
-        if(distance <= attackRange)
-        {
-            if(chase == false)
+            if (distance <= attackRange)
             {
-                ChangeState(ghostState.attack);
-                chase = true;
+                if (chase == false)
+                {
+                    ChangeState(ghostState.attack);
+                    chase = true;
+                }
+                transform.position = Vector3.MoveTowards(transform.position, adjPos, ((gSpeed.value() + speed) * Time.deltaTime));
             }
-            transform.position = Vector3.MoveTowards(transform.position, adjPos, ((gSpeed.value() + speed) * Time.deltaTime));
-        } else
-        {
-            transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y, -100f),((gSpeed.value() + speed) * Time.deltaTime));
-        }
+            else
+            {
+                transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y, -100f), ((gSpeed.value() + speed) * Time.deltaTime));
+            }
 
-        if(distance < 1)
-        {
-            gameObject.SetActive(false);
+            if (distance < 1)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 

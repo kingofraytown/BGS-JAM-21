@@ -228,8 +228,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -570.6, y: -108}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -476, y: -176}
+  m_SizeDelta: {x: 36.6824, y: 44.6881}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23675839
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 588547186, guid: 40653bd9a5c33f142b2f5e63b4fd4f4e, type: 3}
+  m_Sprite: {fileID: -307838756, guid: d6bc03e0aceb12c4c854e952491bc9d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -426,8 +426,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 745.19995, y: 523.80005}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 479, y: 340}
+  m_SizeDelta: {x: 54.8771, y: 61.3554}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &431939251
 MonoBehaviour:
@@ -449,7 +449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 588547186, guid: 40653bd9a5c33f142b2f5e63b4fd4f4e, type: 3}
+  m_Sprite: {fileID: -307838756, guid: d6bc03e0aceb12c4c854e952491bc9d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -524,10 +524,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Move the witch with the arrow keys
+  m_text: Movement - left joystick or WASD
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 10856a2a0c173724cb0f8f239cccfdec, type: 2}
+  m_sharedMaterial: {fileID: 6418615585959888339, guid: 10856a2a0c173724cb0f8f239cccfdec, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -663,8 +663,8 @@ MonoBehaviour:
   m_text: Collect the crystals and get to the cauldron at the end of the road without
     running into a ghost
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 10856a2a0c173724cb0f8f239cccfdec, type: 2}
+  m_sharedMaterial: {fileID: 6418615585959888339, guid: 10856a2a0c173724cb0f8f239cccfdec, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -774,8 +774,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -822.6, y: 327.59998}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -467.26556, y: 258.30057}
+  m_SizeDelta: {x: 54.1494, y: 56.3327}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611630994
 MonoBehaviour:
@@ -797,7 +797,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 588547186, guid: 40653bd9a5c33f142b2f5e63b4fd4f4e, type: 3}
+  m_Sprite: {fileID: -307838756, guid: d6bc03e0aceb12c4c854e952491bc9d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1401,8 +1401,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 750.59985, y: -187.20001}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 448.0595, y: -143.5756}
+  m_SizeDelta: {x: 60.6994, y: 52.6938}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1568902348
 MonoBehaviour:
@@ -1424,7 +1424,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 588547186, guid: 40653bd9a5c33f142b2f5e63b4fd4f4e, type: 3}
+  m_Sprite: {fileID: -307838756, guid: d6bc03e0aceb12c4c854e952491bc9d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1503,8 +1503,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 10856a2a0c173724cb0f8f239cccfdec, type: 2}
+  m_sharedMaterial: {fileID: 6418615585959888339, guid: 10856a2a0c173724cb0f8f239cccfdec, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1534,9 +1534,9 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0

@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5775491330866156551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Tree Yell
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Tree Yell
+  Guid:
+    Data1: 986445304
+    Data2: 1240387888
+    Data3: -888721757
+    Data4: -1723495317
+  Banks:
+  - {fileID: 3194507276167675706}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2832
+--- !u!114 &-4484761237293115525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Button Focus
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/UI/Button Focus
+  Guid:
+    Data1: -346407017
+    Data2: 1195487368
+    Data3: -1910915928
+    Data4: -1577516650
+  Banks:
+  - {fileID: 3194507276167675706}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 135
 --- !u!114 &-3957319092210520215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,6 +108,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1420
+--- !u!114 &-2231468771995188786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Ghost Poof
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Ghost Poof
+  Guid:
+    Data1: -693612835
+    Data2: 1088117321
+    Data3: -1382013820
+    Data4: 1775748201
+  Banks:
+  - {fileID: 3194507276167675706}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1811571680754967516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Golem break
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Golem break
+  Guid:
+    Data1: -94856487
+    Data2: 1333117977
+    Data3: 2102363053
+    Data4: -310503428
+  Banks:
+  - {fileID: 3194507276167675706}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-689428823723534646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Button Press
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/UI/Button Press
+  Guid:
+    Data1: -590856434
+    Data2: 1241866555
+    Data3: -56419432
+    Data4: -673129537
+  Banks:
+  - {fileID: 3194507276167675706}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 68
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,12 +211,19 @@ MonoBehaviour:
   - {fileID: -3957319092210520215}
   - {fileID: 9121998374131347912}
   - {fileID: 2953684300072889174}
+  - {fileID: -689428823723534646}
+  - {fileID: 6427901036141316608}
+  - {fileID: 6946968816444395674}
+  - {fileID: -4484761237293115525}
+  - {fileID: -1811571680754967516}
+  - {fileID: -2231468771995188786}
+  - {fileID: -5775491330866156551}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3194507276167675706}
   StringsBanks:
   - {fileID: 162310666683044830}
-  cacheTime: 638976884864747077
+  cacheTime: 638979698590717706
   cacheVersion: 131633
 --- !u!114 &162310666683044830
 MonoBehaviour:
@@ -98,10 +240,10 @@ MonoBehaviour:
   Path: Assets/witchy jam/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638976884864747077
+  lastModified: 638979698590717706
   FileSizes:
   - Name: Desktop
-    Value: 994
+    Value: 1316
   Exists: 1
 --- !u!114 &1140690590006821372
 MonoBehaviour:
@@ -172,10 +314,10 @@ MonoBehaviour:
   Path: Assets/witchy jam/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638976884864579442
+  lastModified: 638979698590568108
   FileSizes:
   - Name: Desktop
-    Value: 2202592
+    Value: 2373632
   Exists: 1
 --- !u!114 &4002420435393110095
 MonoBehaviour:
@@ -204,6 +346,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 937
+--- !u!114 &6427901036141316608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Golem Yell
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Golem Yell
+  Guid:
+    Data1: 992065809
+    Data2: 1086796609
+    Data3: -675915117
+    Data4: -1465331514
+  Banks:
+  - {fileID: 3194507276167675706}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1090
+--- !u!114 &6946968816444395674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Tree Fall
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Tree Fall
+  Guid:
+    Data1: 1563910200
+    Data2: 1278979866
+    Data3: 244823708
+    Data4: 1433189223
+  Banks:
+  - {fileID: 3194507276167675706}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1009
 --- !u!114 &9121998374131347912
 MonoBehaviour:
   m_ObjectHideFlags: 0
