@@ -5,7 +5,7 @@
 			<value>Tree Yell</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{cdbdf835-50c8-4225-a24a-3de6cd1226e1}</destination>
@@ -202,6 +202,7 @@
 	<object class="MixerBusEffectChain" id="{0e208975-e3e9-4f25-b1b8-7b9b076b0a69}">
 		<relationship name="effects">
 			<destination>{66537302-ee58-4760-abb6-a03a1d692c42}</destination>
+			<destination>{2d6c27e5-a6c7-4f34-a3cd-81f6aecced78}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ac8df37b-a523-4eab-b886-13527bd94422}" />
@@ -255,6 +256,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{24d773d0-09ad-4537-a7a2-4a28f97162b9}" />
 	<object class="MixerBusFader" id="{66537302-ee58-4760-abb6-a03a1d692c42}" />
+	<object class="SpatialiserEffect" id="{2d6c27e5-a6c7-4f34-a3cd-81f6aecced78}">
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>2.60000014</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{9f398080-00df-4532-9946-9bcec985f4e5}" />
 	<object class="AutomationPoint" id="{741d98a8-37c1-4e95-bffb-58cdbe5920d8}">
 		<property name="position">

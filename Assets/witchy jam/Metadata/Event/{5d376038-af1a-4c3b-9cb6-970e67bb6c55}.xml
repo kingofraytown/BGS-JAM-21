@@ -5,7 +5,7 @@
 			<value>Tree Fall</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{cdbdf835-50c8-4225-a24a-3de6cd1226e1}</destination>
@@ -186,6 +186,7 @@
 	<object class="MixerBusEffectChain" id="{723f85bc-cb51-481e-86f4-0bfb4c15bd2c}">
 		<relationship name="effects">
 			<destination>{0c99e272-a7b7-46fe-a5a5-3001172852f5}</destination>
+			<destination>{e80d009e-e004-4fb2-93d1-ad29aab48fb4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4d8c17da-af43-44c7-a1f7-6ca844eba9b6}" />
@@ -217,6 +218,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{888ef698-8b67-42a3-9046-7550c30ab879}" />
 	<object class="MixerBusFader" id="{0c99e272-a7b7-46fe-a5a5-3001172852f5}" />
+	<object class="SpatialiserEffect" id="{e80d009e-e004-4fb2-93d1-ad29aab48fb4}" />
 	<object class="MixerBusFader" id="{f2287413-e3b4-4400-8c18-f60748894b20}" />
 	<object class="MixerBusFader" id="{2f63beda-1439-430b-b7db-0110c99dbc1a}" />
 	<object class="AutomationPoint" id="{8174bab7-0db5-48b2-b454-7360f468b3f2}">

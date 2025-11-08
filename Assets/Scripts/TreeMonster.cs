@@ -114,7 +114,7 @@ public class TreeMonster : MonoBehaviour
             transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + (-1 * gSpeed.value() * Time.deltaTime));
         }
 
-        if (transform.position.z < -10f)
+        if (transform.position.z < -30f)
         {
             gameObject.SetActive(false);
         }

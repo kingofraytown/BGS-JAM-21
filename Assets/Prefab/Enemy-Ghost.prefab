@@ -527,11 +527,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4056e4465b30923429907014b3ac069d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
-  speed: 0.8
+  speed: 0.5
   gSpeed: {fileID: 0}
   player: {fileID: 0}
-  attackRange: 40
-  alertRange: 70
+  attackRange: 50
+  alertRange: 90
   playerOffset: 10
   distance: 0
   animator: {fileID: 994312208862909919}

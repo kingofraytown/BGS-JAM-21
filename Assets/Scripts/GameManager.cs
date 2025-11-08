@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine.SceneManagement;
 using Unity.Cinemachine;
+using UnityEngine.EventSystems;
 
 public class GameManager : MonoBehaviour
 {
@@ -29,12 +30,16 @@ public class GameManager : MonoBehaviour
     public float windMaxRate;
     public WitchController witchController;
     public List<GameObject> tracks;
+    private EventSystem eventSystem;
+    public GameObject winButton;
+    public GameObject gameOverButton;
 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        eventSystem = FindObjectOfType<EventSystem>();
         speed.SetValue(startSpeed);
         int random = Random.Range(1, 3);
 
@@ -70,6 +75,7 @@ public class GameManager : MonoBehaviour
             {
                 levelComplete = false;
                 winPanel.SetActive(true);
+                eventSystem.SetSelectedGameObject(winButton);
             }
         }
     }
@@ -88,6 +94,7 @@ public class GameManager : MonoBehaviour
     {
         witchController.Die();
         losePanel.SetActive(true);
+        eventSystem.SetSelectedGameObject(gameOverButton);
         speed.SetValue(0);
     }
 

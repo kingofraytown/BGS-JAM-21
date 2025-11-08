@@ -5,7 +5,7 @@
 			<value>Golem Yell</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{cdbdf835-50c8-4225-a24a-3de6cd1226e1}</destination>
@@ -186,6 +186,7 @@
 	<object class="MixerBusEffectChain" id="{9fc436a4-aea4-43cc-92ff-651d9093a39e}">
 		<relationship name="effects">
 			<destination>{ac5bb0dc-1856-4c27-9658-a0f0d83f3914}</destination>
+			<destination>{569779b2-f883-4466-b0b8-25aa6ea382e5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c6b337ff-5e10-47d1-ad70-b12c33142b3d}" />
@@ -209,6 +210,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{0c485ec3-2bb6-475c-b56f-ced45bf9649c}" />
 	<object class="MixerBusFader" id="{ac5bb0dc-1856-4c27-9658-a0f0d83f3914}" />
+	<object class="SpatialiserEffect" id="{569779b2-f883-4466-b0b8-25aa6ea382e5}" />
 	<object class="MixerBusFader" id="{c980cf89-1b0d-47fb-bb98-8ea1fff7e414}" />
 	<object class="MixerBusFader" id="{5b129569-b447-4110-9c0f-45776861bfa0}" />
 	<object class="MixerBusFader" id="{8c3087a9-08bb-47dc-92d9-0820f6c971dc}" />
